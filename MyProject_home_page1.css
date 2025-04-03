@@ -5,7 +5,7 @@ h1{
     font-family: "Brush Script MT";
     background-color: #86c2ff;
     color: black;
-    opacity: 50%;
+    opacity: 30%;
     height: 50px;
     width: 100%;
     margin-left: -7px;
@@ -13,13 +13,16 @@ h1{
     padding-left: 15px;
     padding-top: 9px;
 }
-.oneTwoThree{
+.wrap{
+    display: flex;
+}
+.oneTwo{
     display: flex;
     justify-content: space-evenly;
 }
 .one{
     background-color: #e7e9eb;
-    opacity: 50%;
+    opacity: 70%;
     color: black;
     font-family: "Arial Narrow";
     text-shadow: 1px 1px 2px rgb(68, 10, 20);
@@ -34,7 +37,7 @@ h1{
 }
 .two{
     background-color: #e7e9eb;
-    opacity: 50%;
+    opacity: 70%;
     color: black;
     font-family: "Arial Narrow";
     text-shadow: 1px 1px 2px rgb(68, 10, 20);
@@ -52,10 +55,32 @@ h1{
     color: black;
     font-family: "Arial Narrow";
     text-shadow: 1px 1px 2px rgb(68, 10, 20);
-    height: 100px;
+    height: 415px;
     width: 700px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    margin: 0% auto;
+    opacity: 70%;
+    box-shadow: 0.1px 1px black;
 }
-img{
-    display: block;
+.img1{
+    margin: 15px auto;
+    opacity: 70%;
+}
+.signUp{
+    color:black;
+    background-color: darkorange;
+    height: 40px;
+    width: 300px;
+    font-family: "Arial Narrow";
+    text-shadow: 1px 1px 2px rgb(68, 10, 20);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0.1px 1px black;
+    overflow: hidden;
+    padding-top: 12px;
     margin: 0% auto;
 }

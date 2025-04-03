@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(#2b6d7f, #340f49);
+}
+h1{
+    font-family: "Brush Script MT";
+    background-color: #86c2ff;
+    color: black;
+    opacity: 30%;
+    height: 50px;
+    width: 100%;
+    margin-left: -7px;
+    margin-top: -7px;
+    padding-left: 15px;
+    padding-top: 9px;
+}
+label {
+    font-family: "Arial Narrow";
+    color: white;
+    display: inline-block;
+    width: 75px;
+    text-shadow: 1px 1px 2px rgb(68, 10, 20);
+}
+.myLastName{
+    padding-left: 2px;
+}
