@@ -27,8 +27,8 @@ h1{
     font-family: "Arial Narrow";
     text-shadow: 1px 1px 2px rgb(68, 10, 20);
     height: 57px;
-    width: 265px;
-    margin-top: -5px;
+    width: 25%;
+    margin-top: 5px;
     margin-bottom: 15px;
     text-align: center;
     border-radius: 5px;
@@ -42,8 +42,8 @@ h1{
     font-family: "Arial Narrow";
     text-shadow: 1px 1px 2px rgb(68, 10, 20);
     height: 57px;
-    width: 265px;
-    margin-top: -5px;
+    width: 25%;
+    margin-top: 5px;
     margin-bottom: 15px;
     text-align: center;
     border-radius: 5px;
@@ -55,8 +55,8 @@ h1{
     color: black;
     font-family: "Arial Narrow";
     text-shadow: 1px 1px 2px rgb(68, 10, 20);
-    height: 415px;
-    width: 700px;
+    height: 258px;
+    width: calc(100% 0px);
     margin-bottom: 15px;
     border-radius: 5px;
     padding-left: 10px;
@@ -65,6 +65,7 @@ h1{
     margin: 0% auto;
     opacity: 70%;
     box-shadow: 0.1px 1px black;
+    overflow: hidden;
 }
 .img1{
     margin: 15px auto;
@@ -74,7 +75,7 @@ h1{
     color:black;
     background-color: darkorange;
     height: 40px;
-    width: 300px;
+    width: 100%;
     font-family: "Arial Narrow";
     text-shadow: 1px 1px 2px rgb(68, 10, 20);
     text-align: center;
@@ -83,4 +84,30 @@ h1{
     overflow: hidden;
     padding-top: 12px;
     margin: 0% auto;
+}
+button{
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(68, 10, 20);
+    opacity: 70%;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.txtButton{
+    font-family: "Arial Narrow";
+    color: black;
+    text-shadow: 1px 1px 2px rgb(68, 10, 20);
+    background-color: #e7e9eb;
+    opacity: 70%;
+    border-radius: 5px;
+    width: 440px;
+    text-align: center;
+    margin: 5px;
+}
+.left {
+    width: 75%;
+}
+.right {
+    width: 25%;
+    text-align: center;
 }
