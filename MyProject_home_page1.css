@@ -67,7 +67,8 @@ h1{
     box-shadow: 0.1px 1px black;
     overflow: hidden;
 }
-.img1{
+.img{
+    text-align: center;
     margin: 15px auto;
     opacity: 70%;
 }
@@ -75,7 +76,7 @@ h1{
     color:black;
     background-color: darkorange;
     height: 40px;
-    width: 100%;
+    width: 255px;
     font-family: "Arial Narrow";
     text-shadow: 1px 1px 2px rgb(68, 10, 20);
     text-align: center;
@@ -93,7 +94,7 @@ button{
     border-radius: 5px;
     cursor:pointer;
 }
-.txtButton{
+.txt{
     font-family: "Arial Narrow";
     color: black;
     text-shadow: 1px 1px 2px rgb(68, 10, 20);
@@ -101,6 +102,7 @@ button{
     opacity: 70%;
     border-radius: 5px;
     width: 440px;
+    height: 60px;
     text-align: center;
     margin: 5px;
 }
