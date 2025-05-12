@@ -28,13 +28,13 @@ form{
     text-align: center;
 }
 button{
-    font-family: "Arial Narrow";
     border-radius: 100px;
     height: 35px;
+    font-family: "Arial Narrow";
 }
 p{
-    font-family: "Arial Narrow";
     color: white;
+    font-family: "Arial Narrow";
 }
 .center{
     text-align: center;
